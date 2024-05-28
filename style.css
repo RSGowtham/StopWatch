@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+#container{
+    width: 30%;
+    height: 20%;
+    padding: 1rem;
+}
+#watch{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#button{
+        display: flex;
+        justify-content: space-evenly;
+
+ }
+ .but{
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border-style: none;
+    border-radius: 1rem;
+    color: burlywood;
+ }
+ .but:hover{
+    background-color: burlywood;
+    color: white;
+ }
